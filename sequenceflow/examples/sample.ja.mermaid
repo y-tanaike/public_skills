@@ -1,0 +1,8 @@
+sequenceDiagram
+  participant U as 利用者
+  participant A as アプリ
+  participant S as サーバー
+  U->>A: ログイン
+  A->>S: 認証リクエスト
+  S-->>A: 認証結果
+  A-->>U: ホーム画面

@@ -1,0 +1,36 @@
+{
+  "app_id": "menu",
+  "base_url": "https://menu.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "createType",
+    "currencyCode",
+    "layoutType",
+    "menuItems",
+    "note",
+    "paperSize",
+    "shopId",
+    "shopName",
+    "tagline",
+    "themeColor",
+    "version"
+  ],
+  "root_types": {
+    "version": "string",
+    "createType": "string",
+    "shopId": "string",
+    "shopName": "string",
+    "tagline": "string",
+    "currencyCode": "string",
+    "note": "string",
+    "themeColor": "string",
+    "menuItems": "array",
+    "layoutType": "string",
+    "paperSize": "string"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

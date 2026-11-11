@@ -1,0 +1,6 @@
+flowchart TD
+  A[Receive inquiry] --> B{Can we respond?}
+  B -->|Yes| C[Answer the inquiry]
+  B -->|No| D[Refer to a specialist]
+  C --> E[Complete]
+  D --> E

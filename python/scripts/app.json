@@ -1,0 +1,12 @@
+{
+  "app_id": "python",
+  "base_url": "https://python.tanaike.jp/",
+  "kind": "text",
+  "root_keys": [],
+  "root_types": {},
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

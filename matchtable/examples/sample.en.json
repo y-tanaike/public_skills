@@ -1,0 +1,24 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "teamList": [
+    {
+      "id": "team1",
+      "name": "Team A"
+    },
+    {
+      "id": "team2",
+      "name": "Team B"
+    }
+  ],
+  "matchList": [
+    {
+      "id": "match1",
+      "team1Id": "team1",
+      "team2Id": "team2",
+      "resultType": "win",
+      "team1Score": 3.0,
+      "team2Score": 1.0
+    }
+  ]
+}

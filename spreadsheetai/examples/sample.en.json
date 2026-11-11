@@ -1,0 +1,28 @@
+{
+  "fileEntity": {
+    "name": "Reading log"
+  },
+  "colList": [
+    {
+      "title": "Monday",
+      "isCol": 1
+    },
+    {
+      "title": "Tuesday",
+      "isCol": 1
+    }
+  ],
+  "rowList": [
+    {
+      "title": "Reading",
+      "isCol": 0
+    }
+  ],
+  "cellList": [
+    {
+      "col": 0,
+      "row": 0,
+      "title": "10 pages"
+    }
+  ]
+}

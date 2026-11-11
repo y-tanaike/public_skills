@@ -1,0 +1,36 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "orderItemList": [
+    {
+      "id": "coffee",
+      "itemType": "item",
+      "title": "コーヒー",
+      "status": "active"
+    }
+  ],
+  "orderTableList": [
+    {
+      "id": "table1",
+      "name": "1番テーブル",
+      "status": "active"
+    }
+  ],
+  "orderSlipList": [
+    {
+      "id": "slip1",
+      "slipNumber": 1,
+      "tableId": "table1",
+      "tableName": "1番テーブル",
+      "orderedAt": "2026-11-11T10:00:00.000",
+      "orderLineList": [
+        {
+          "id": "line1",
+          "orderItemId": "coffee",
+          "quantity": 2
+        }
+      ],
+      "status": "active"
+    }
+  ]
+}

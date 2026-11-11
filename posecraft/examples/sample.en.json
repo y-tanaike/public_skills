@@ -1,0 +1,356 @@
+{
+  "version": 1,
+  "modelId": "human_male",
+  "pose": {
+    "hips": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "spine": {
+      "rotation": [
+        0.0,
+        0.0,
+        -3.0
+      ]
+    },
+    "chest": {
+      "rotation": [
+        0.0,
+        -8.0,
+        -3.0
+      ]
+    },
+    "upperChest": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "neck": {
+      "rotation": [
+        -4.0,
+        -6.0,
+        0.0
+      ]
+    },
+    "head": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "leftShoulder": {
+      "rotation": [
+        0.0,
+        0.0,
+        4.0
+      ]
+    },
+    "leftUpperArm": {
+      "rotation": [
+        0.0,
+        0.0,
+        12.0
+      ]
+    },
+    "leftLowerArm": {
+      "rotation": [
+        0.0,
+        0.0,
+        10.0
+      ]
+    },
+    "leftHand": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "rightShoulder": {
+      "rotation": [
+        0.0,
+        0.0,
+        -12.0
+      ]
+    },
+    "rightUpperArm": {
+      "rotation": [
+        0.0,
+        0.0,
+        -142.0
+      ]
+    },
+    "rightLowerArm": {
+      "rotation": [
+        0.0,
+        -20.0,
+        -28.0
+      ]
+    },
+    "rightHand": {
+      "rotation": [
+        0.0,
+        0.0,
+        -18.0
+      ]
+    },
+    "leftUpperLeg": {
+      "rotation": [
+        0.0,
+        0.0,
+        4.0
+      ]
+    },
+    "leftLowerLeg": {
+      "rotation": [
+        -6.0,
+        0.0,
+        0.0
+      ]
+    },
+    "leftFoot": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "rightUpperLeg": {
+      "rotation": [
+        0.0,
+        0.0,
+        -4.0
+      ]
+    },
+    "rightLowerLeg": {
+      "rotation": [
+        -3.0,
+        0.0,
+        0.0
+      ]
+    },
+    "rightFoot": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "leftThumb1": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "leftThumb2": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "leftThumb3": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "leftIndex1": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "leftIndex2": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "leftIndex3": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "leftMiddle1": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "leftMiddle2": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "leftMiddle3": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "leftRing1": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "leftRing2": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "leftRing3": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "leftLittle1": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "leftLittle2": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "leftLittle3": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "rightThumb1": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "rightThumb2": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "rightThumb3": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "rightIndex1": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "rightIndex2": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "rightIndex3": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "rightMiddle1": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "rightMiddle2": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "rightMiddle3": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "rightRing1": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "rightRing2": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "rightRing3": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "rightLittle1": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "rightLittle2": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "rightLittle3": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

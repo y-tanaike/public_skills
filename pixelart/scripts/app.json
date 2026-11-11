@@ -1,0 +1,29 @@
+{
+  "app_id": "pixelart",
+  "base_url": "https://pixelart.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "activeLayerIndex",
+    "createType",
+    "height",
+    "layers",
+    "pixels",
+    "type",
+    "version",
+    "width"
+  ],
+  "root_types": {
+    "width": "integer",
+    "height": "integer",
+    "layers": "array",
+    "activeLayerIndex": "integer",
+    "version": "string",
+    "type": "string",
+    "createType": "string"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

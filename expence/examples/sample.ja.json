@@ -1,0 +1,17 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "expenseItemList": [
+    {
+      "id": "book1",
+      "title": "書籍購入",
+      "itemType": "item",
+      "type": "minus",
+      "price": 1500.0,
+      "label": "学習",
+      "paymentDateTime": "2026-11-11T00:00:00.000",
+      "isAllDay": true,
+      "paymentMethod": "現金"
+    }
+  ]
+}

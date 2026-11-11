@@ -1,0 +1,30 @@
+{
+  "app_id": "inknote",
+  "base_url": "https://inknote.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "activeLayerIndex",
+    "createType",
+    "height",
+    "layers",
+    "ruling",
+    "type",
+    "version",
+    "width"
+  ],
+  "root_types": {
+    "width": "number",
+    "height": "number",
+    "layers": "array",
+    "activeLayerIndex": "integer",
+    "version": "integer",
+    "type": "string",
+    "createType": "string",
+    "ruling": "string"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

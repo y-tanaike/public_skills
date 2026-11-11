@@ -1,0 +1,32 @@
+{
+  "app_id": "solopodcast",
+  "base_url": "",
+  "kind": "json",
+  "root_keys": [
+    "createType",
+    "episodeId",
+    "episodeNumber",
+    "partner",
+    "segments",
+    "showName",
+    "showNotes",
+    "type",
+    "version"
+  ],
+  "root_types": {
+    "episodeId": "string",
+    "showName": "string",
+    "episodeNumber": "string",
+    "showNotes": "string",
+    "segments": "array",
+    "version": "integer",
+    "type": "string",
+    "createType": "string",
+    "partner": "object"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

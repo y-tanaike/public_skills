@@ -1,0 +1,24 @@
+{
+  "app_id": "orderslip",
+  "base_url": "https://orderslip.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "createType",
+    "orderItemList",
+    "orderSlipList",
+    "orderTableList",
+    "version"
+  ],
+  "root_types": {
+    "version": "string",
+    "createType": "string",
+    "orderItemList": "array",
+    "orderTableList": "array",
+    "orderSlipList": "array"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

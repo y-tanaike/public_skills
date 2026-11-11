@@ -1,0 +1,12 @@
+{
+  "app_id": "er",
+  "base_url": "https://er.tanaike.jp/",
+  "kind": "text",
+  "root_keys": [],
+  "root_types": {},
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

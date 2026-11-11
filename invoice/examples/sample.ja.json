@@ -1,0 +1,33 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "documentTitle": "請求書",
+  "documentNumber": "SAMPLE-2026-001",
+  "issueDate": "2026-11-11",
+  "currencyCode": "JPY",
+  "layoutType": "normal",
+  "sender": {
+    "id": "sender",
+    "name": "サンプル制作室",
+    "address": "サンプル住所",
+    "email": "hello@example.com"
+  },
+  "recipient": {
+    "id": "recipient",
+    "name": "サンプル株式会社",
+    "email": "sample@example.org",
+    "honorificType": "none"
+  },
+  "lineItems": [
+    {
+      "id": "item1",
+      "description": "デザイン相談",
+      "quantity": 1.0,
+      "unitLabel": "回",
+      "unitPrice": 10000.0
+    }
+  ],
+  "taxRate": 10.0,
+  "note": "説明用の架空のサンプルです。",
+  "dueDate": "2026-11-30"
+}

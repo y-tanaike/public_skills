@@ -1,0 +1,20 @@
+{
+  "app_id": "expence",
+  "base_url": "https://expence.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "createType",
+    "expenseItemList",
+    "version"
+  ],
+  "root_types": {
+    "version": "string",
+    "createType": "string",
+    "expenseItemList": "array"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

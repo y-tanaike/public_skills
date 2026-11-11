@@ -1,0 +1,94 @@
+{
+  "title": "読書を習慣にする",
+  "description": "少しずつ読み、学んだことを生活に活かす",
+  "childMandalaCellList": [
+    {
+      "title": "読む時間",
+      "childMandalaCellList": [
+        {
+          "title": "寝る前に10分読む"
+        },
+        {
+          "title": "朝食後に1ページ読む"
+        }
+      ]
+    },
+    {
+      "title": "本を選ぶ",
+      "childMandalaCellList": [
+        {
+          "title": "読みたい本を記録する"
+        },
+        {
+          "title": "毎月図書館へ行く"
+        }
+      ]
+    },
+    {
+      "title": "記録する",
+      "childMandalaCellList": [
+        {
+          "title": "発見を1つ書き留める"
+        },
+        {
+          "title": "好きな一節を残す"
+        }
+      ]
+    },
+    {
+      "title": "学びを活かす",
+      "childMandalaCellList": [
+        {
+          "title": "毎週1つの考えを試す"
+        },
+        {
+          "title": "自分の言葉で説明する"
+        }
+      ]
+    },
+    {
+      "title": "環境を整える",
+      "childMandalaCellList": [
+        {
+          "title": "枕元に本を置く"
+        },
+        {
+          "title": "読書中はスマートフォンを離す"
+        }
+      ]
+    },
+    {
+      "title": "仲間と話す",
+      "childMandalaCellList": [
+        {
+          "title": "友人に本をすすめる"
+        },
+        {
+          "title": "読書会に参加する"
+        }
+      ]
+    },
+    {
+      "title": "無理なく続ける",
+      "childMandalaCellList": [
+        {
+          "title": "忙しい時は短い本を選ぶ"
+        },
+        {
+          "title": "読み終えたら自分をねぎらう"
+        }
+      ]
+    },
+    {
+      "title": "振り返る",
+      "childMandalaCellList": [
+        {
+          "title": "毎月メモを読み返す"
+        },
+        {
+          "title": "翌月のテーマを決める"
+        }
+      ]
+    }
+  ]
+}

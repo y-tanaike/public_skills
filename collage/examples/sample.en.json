@@ -1,0 +1,22 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "title": "Reading memories",
+  "subtitle": "Books and conversations",
+  "caption": "A layout for photos from the reading group.",
+  "showTitle": true,
+  "photoItems": [
+    {
+      "id": "1794395267025513-photo0",
+      "caption": "Our favorite books",
+      "scale": 1.0,
+      "x": 10.0,
+      "y": 10.0,
+      "width": 40.0
+    }
+  ],
+  "layoutType": "hero_topleft_6",
+  "canvasRatio": "square",
+  "photoGap": 6,
+  "cornerRadius": 8
+}

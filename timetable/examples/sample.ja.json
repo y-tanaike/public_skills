@@ -1,0 +1,37 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "topic": {
+    "id": "root",
+    "title": "読書会の予定",
+    "isOpenChild": true,
+    "childTopicList": [
+      {
+        "id": "intro",
+        "title": "自己紹介",
+        "isOpenChild": true,
+        "startTime": {
+          "hour": 14,
+          "minute": 0
+        },
+        "endTime": {
+          "hour": 14,
+          "minute": 15
+        }
+      },
+      {
+        "id": "discussion",
+        "title": "本の感想を話す",
+        "isOpenChild": true,
+        "startTime": {
+          "hour": 14,
+          "minute": 15
+        },
+        "endTime": {
+          "hour": 15,
+          "minute": 0
+        }
+      }
+    ]
+  }
+}

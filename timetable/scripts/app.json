@@ -1,0 +1,22 @@
+{
+  "app_id": "timetable",
+  "base_url": "https://timetable.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "createType",
+    "dayLabelMap",
+    "topic",
+    "version"
+  ],
+  "root_types": {
+    "version": "string",
+    "createType": "string",
+    "dayLabelMap": "object",
+    "topic": "object"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

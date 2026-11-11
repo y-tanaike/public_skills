@@ -1,0 +1,27 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "registerItemList": [
+    {
+      "id": "coffee",
+      "itemType": "item",
+      "title": "Coffee",
+      "status": "active",
+      "unitPrice": 450.0
+    }
+  ],
+  "saleTransactionList": [
+    {
+      "id": "sale1",
+      "soldAt": "2026-11-11T10:00:00.000",
+      "saleLineList": [
+        {
+          "id": "line1",
+          "registerItemId": "coffee",
+          "quantity": 2.0
+        }
+      ],
+      "status": "completed"
+    }
+  ]
+}

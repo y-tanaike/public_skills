@@ -1,0 +1,34 @@
+{
+  "app_id": "timeline",
+  "base_url": "https://timeline.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "anchorDate",
+    "anchorStyle",
+    "categoryList",
+    "createType",
+    "eventList",
+    "isDescending",
+    "layoutStyle",
+    "layoutType",
+    "version",
+    "yearColorHex"
+  ],
+  "root_types": {
+    "version": "string",
+    "createType": "string",
+    "eventList": "array",
+    "categoryList": "array",
+    "isDescending": "boolean",
+    "yearColorHex": "string",
+    "layoutType": "string",
+    "layoutStyle": "string",
+    "anchorDate": "object",
+    "anchorStyle": "string"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

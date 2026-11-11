@@ -1,0 +1,52 @@
+{
+  "app_id": "delivery",
+  "base_url": "https://delivery.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "createType",
+    "currencyCode",
+    "deliveryDate",
+    "deliveryMethod",
+    "discountAmount",
+    "discountLabel",
+    "documentNumber",
+    "documentTitle",
+    "issueDate",
+    "layoutType",
+    "lineItems",
+    "note",
+    "orderNumber",
+    "recipient",
+    "sender",
+    "showPrice",
+    "taxRate",
+    "trackingNumber",
+    "version"
+  ],
+  "root_types": {
+    "version": "string",
+    "createType": "string",
+    "documentTitle": "string",
+    "documentNumber": "string",
+    "orderNumber": "string",
+    "issueDate": "string",
+    "deliveryDate": "string",
+    "currencyCode": "string",
+    "layoutType": "string",
+    "showPrice": "boolean",
+    "deliveryMethod": "string",
+    "trackingNumber": "string",
+    "lineItems": "array",
+    "taxRate": "number",
+    "discountLabel": "string",
+    "discountAmount": "number",
+    "note": "string",
+    "sender": "object",
+    "recipient": "object"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

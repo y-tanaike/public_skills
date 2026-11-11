@@ -1,0 +1,20 @@
+{
+  "app_id": "stock",
+  "base_url": "https://stock.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "createType",
+    "stockItemList",
+    "version"
+  ],
+  "root_types": {
+    "version": "string",
+    "createType": "string",
+    "stockItemList": "array"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

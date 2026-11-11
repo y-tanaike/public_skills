@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "type": "inknote",
+  "createType": "Flutter",
+  "width": 1000.0,
+  "height": 1414.0,
+  "layers": [
+    {
+      "id": "3a438560-85a7-4e5a-8542-2891eb883a32",
+      "name": "Layer 1",
+      "isVisible": true,
+      "isLocked": false,
+      "strokes": [
+        {
+          "id": "1c0b2a93-18b5-4e74-90c8-779daa4bb55c",
+          "toolId": "highlighter",
+          "color": 1728047931,
+          "size": 24.0,
+          "thinning": 0.0,
+          "smoothing": 0.5,
+          "streamline": 0.6,
+          "startCap": true,
+          "startTaperEnabled": false,
+          "startCustomTaper": null,
+          "endCap": true,
+          "endTaperEnabled": false,
+          "endCustomTaper": null,
+          "points": [
+            [
+              70.0,
+              152.0,
+              0.5
+            ],
+            [
+              198.0,
+              154.0,
+              0.5
+            ],
+            [
+              326.0,
+              151.88,
+              0.5
+            ],
+            [
+              454.0,
+              150.01,
+              0.5
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "activeLayerIndex": 0,
+  "ruling": "dotted"
+}

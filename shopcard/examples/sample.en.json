@@ -1,0 +1,18 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "name": "Sample Cafe",
+  "companyName": "Sample Company",
+  "address": "Sample address",
+  "phone": "03-1234-xxxx",
+  "email": "hello@example.com",
+  "website": "https://example.com",
+  "layoutType": "colorful",
+  "orientation": "yoko",
+  "isDoubleSided": true,
+  "backNote": "Thank you for visiting.",
+  "catchphrase": "Freshly roasted coffee in a cozy space.",
+  "businessHours": "10:00 - 19:00",
+  "regularHoliday": "Every Wednesday",
+  "access": "Three minutes from Sample Station"
+}

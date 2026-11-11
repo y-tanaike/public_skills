@@ -1,0 +1,22 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "title": "読書の思い出",
+  "subtitle": "本と語らい",
+  "caption": "読書会の写真を入れるレイアウトです。",
+  "showTitle": true,
+  "photoItems": [
+    {
+      "id": "1794395267025513-photo0",
+      "caption": "お気に入りの本",
+      "scale": 1.0,
+      "x": 10.0,
+      "y": 10.0,
+      "width": 40.0
+    }
+  ],
+  "layoutType": "hero_topleft_6",
+  "canvasRatio": "square",
+  "photoGap": 6,
+  "cornerRadius": 8
+}

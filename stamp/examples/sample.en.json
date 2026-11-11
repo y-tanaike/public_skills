@@ -1,0 +1,21 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "cardType": "stamp",
+  "shopName": "Sample Cafe",
+  "website": "https://example.com",
+  "stampCount": 10,
+  "showStampNumbers": true,
+  "stampSlotNotes": [
+    {
+      "position": 5,
+      "text": "10% off"
+    }
+  ],
+  "stampNote": "One stamp per drink. Collect ten stamps for a free drink.",
+  "expirationType": "text",
+  "expirationText": "Six months from your last visit",
+  "isDoubleSided": true,
+  "layoutType": "cafe",
+  "orientation": "yoko"
+}

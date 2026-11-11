@@ -1,0 +1,22 @@
+{
+  "app_id": "posecraft",
+  "base_url": "https://posecraft.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "camera",
+    "light",
+    "modelId",
+    "pose",
+    "version"
+  ],
+  "root_types": {
+    "version": "integer",
+    "modelId": "string",
+    "pose": "object"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

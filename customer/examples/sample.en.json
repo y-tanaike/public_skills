@@ -1,0 +1,18 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "kind": "customer",
+  "customerName": "Taro Yamada (sample)",
+  "company": "Sample Company",
+  "email": "sample.customer@example.com",
+  "note": "Fictional customer interested in books.",
+  "activities": [
+    {
+      "id": "visit1",
+      "date": "2026-11-11T14:00:00.000",
+      "description": "Book consultation",
+      "amount": 0.0,
+      "isAllDay": false
+    }
+  ]
+}

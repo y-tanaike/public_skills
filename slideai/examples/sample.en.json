@@ -1,0 +1,14 @@
+{
+  "version": "1",
+  "slideList": [
+    {
+      "id": "intro",
+      "title": "Reading group",
+      "subtitle": "Discover books together",
+      "slideType": "title"
+    }
+  ],
+  "author": "Sample Reading Circle",
+  "themeType": "modern",
+  "slideLayoutType": "screen_16x9"
+}

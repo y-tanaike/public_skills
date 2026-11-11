@@ -1,0 +1,37 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "topic": {
+    "id": "root",
+    "title": "Reading group schedule",
+    "isOpenChild": true,
+    "childTopicList": [
+      {
+        "id": "intro",
+        "title": "Introductions",
+        "isOpenChild": true,
+        "startTime": {
+          "hour": 14,
+          "minute": 0
+        },
+        "endTime": {
+          "hour": 14,
+          "minute": 15
+        }
+      },
+      {
+        "id": "discussion",
+        "title": "Book discussion",
+        "isOpenChild": true,
+        "startTime": {
+          "hour": 14,
+          "minute": 15
+        },
+        "endTime": {
+          "hour": 15,
+          "minute": 0
+        }
+      }
+    ]
+  }
+}

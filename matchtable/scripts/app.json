@@ -1,0 +1,22 @@
+{
+  "app_id": "matchtable",
+  "base_url": "https://matchtable.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "createType",
+    "matchList",
+    "teamList",
+    "version"
+  ],
+  "root_types": {
+    "version": "string",
+    "createType": "string",
+    "teamList": "array",
+    "matchList": "array"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

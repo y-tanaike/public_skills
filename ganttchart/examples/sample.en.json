@@ -1,0 +1,30 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "topic": {
+    "id": "root",
+    "title": "Prepare a new service",
+    "isOpenChild": true,
+    "childTopicList": [
+      {
+        "id": "plan",
+        "title": "Make a plan",
+        "isOpenChild": true,
+        "childTopicList": [],
+        "startDate": 816134400,
+        "endDate": 816307200
+      },
+      {
+        "id": "review",
+        "title": "Review the results",
+        "isOpenChild": true,
+        "childTopicList": [],
+        "startDate": 816393600,
+        "endDate": 816566400,
+        "predecessorTopicIdList": [
+          "plan"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "axisList": [
+    {
+      "id": "sales",
+      "title": "売上",
+      "valueType": "integer",
+      "unit": "JPY"
+    }
+  ],
+  "graphItemList": [
+    {
+      "id": "monday",
+      "title": "月曜日",
+      "graphValueList": [
+        {
+          "id": "v1",
+          "axisId": "sales",
+          "value": 12000.0
+        }
+      ]
+    },
+    {
+      "id": "tuesday",
+      "title": "火曜日",
+      "graphValueList": [
+        {
+          "id": "v2",
+          "axisId": "sales",
+          "value": 15000.0
+        }
+      ]
+    }
+  ],
+  "graphList": [
+    {
+      "id": "graph1",
+      "title": "日別売上",
+      "yAxisIdList": [
+        "sales"
+      ],
+      "graphType": "bar",
+      "graphSortType": "input",
+      "showTitle": true,
+      "showDataLabel": true
+    }
+  ]
+}

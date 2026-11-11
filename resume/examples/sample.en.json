@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "documentTitle": "Curriculum Vitae",
+  "documentDate": "2026/11/11",
+  "layoutType": "simple",
+  "name": "Taro Yamada",
+  "nameReading": "Yamada Taro",
+  "email": "sample@example.com",
+  "currentCompany": "Sample Technologies",
+  "currentJobTitle": "Software Engineer",
+  "professionalSummary": "Develops mobile applications with Flutter.",
+  "skillItems": [
+    {
+      "id": "flutter",
+      "name": "Flutter / Dart",
+      "level": "Advanced"
+    }
+  ],
+  "workItems": [
+    {
+      "id": "work1",
+      "startYear": "2021",
+      "startMonth": "4",
+      "isCurrent": true,
+      "companyName": "Sample Technologies",
+      "responsibilities": "Design and develop mobile applications."
+    }
+  ],
+  "note": "Fictional applicant for demonstration."
+}

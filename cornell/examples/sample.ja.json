@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "type": "cornell",
+  "createType": "Flutter",
+  "noteMode": "text",
+  "ink": {
+    "width": 1000.0,
+    "height": 1414.0,
+    "layers": [
+      {
+        "id": "9b1b1de3-0219-44f5-bac7-eee94b81846b",
+        "name": "レイヤー1",
+        "isVisible": true,
+        "isLocked": false,
+        "strokes": [],
+        "texts": []
+      }
+    ],
+    "activeLayerIndex": 0,
+    "ruling": "dotted"
+  },
+  "noteDelta": [
+    {
+      "insert": "週末の読書会\nおすすめの本と、印象に残った箇所を紹介する。\n"
+    }
+  ],
+  "cues": [],
+  "summary": {
+    "text": "次回は、今回の学びをどのように試したか振り返る。"
+  }
+}

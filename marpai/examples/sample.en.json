@@ -1,0 +1,14 @@
+{
+  "version": "1",
+  "frame": "---\nmarp: true\ntheme: default\npaginate: true\n---",
+  "pageList": [
+    {
+      "id": "intro",
+      "markdown": "# Reading group\n\nShare a book you recommend."
+    },
+    {
+      "id": "agenda",
+      "markdown": "# Agenda\n\n- Introductions\n- Book recommendations\n- Discussion"
+    }
+  ]
+}

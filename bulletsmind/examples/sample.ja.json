@@ -1,0 +1,23 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "topic": {
+    "id": "root",
+    "title": "新サービスの準備",
+    "isOpenChild": true,
+    "childTopicList": [
+      {
+        "id": "plan",
+        "title": "計画を立てる",
+        "isOpenChild": true,
+        "childTopicList": []
+      },
+      {
+        "id": "review",
+        "title": "結果を振り返る",
+        "isOpenChild": true,
+        "childTopicList": []
+      }
+    ]
+  }
+}

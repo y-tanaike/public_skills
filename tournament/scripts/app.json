@@ -1,0 +1,28 @@
+{
+  "app_id": "tournament",
+  "base_url": "https://tournament.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "createType",
+    "matchList",
+    "matchNodeList",
+    "matchTree",
+    "rootMatchId",
+    "teamList",
+    "version"
+  ],
+  "root_types": {
+    "version": "string",
+    "createType": "string",
+    "teamList": "array",
+    "matchList": "array",
+    "matchNodeList": "array",
+    "rootMatchId": "string",
+    "matchTree": "array"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

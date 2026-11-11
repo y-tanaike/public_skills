@@ -1,0 +1,28 @@
+{
+  "app_id": "correlationai",
+  "base_url": "https://correlationai.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "connectionPathType",
+    "createType",
+    "layoutType",
+    "layoutVersion",
+    "relationMap",
+    "topicMap",
+    "version"
+  ],
+  "root_types": {
+    "version": "string",
+    "createType": "string",
+    "topicMap": "object",
+    "relationMap": "object",
+    "layoutVersion": "integer",
+    "layoutType": "string",
+    "connectionPathType": "string"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

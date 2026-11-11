@@ -1,0 +1,18 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "title": "Weekend reading group",
+  "subtitle": "Discover your next favorite book",
+  "period": "November 21, 2026, 14:00",
+  "description": "Bring a book and share what you enjoyed.",
+  "badge": "Free admission",
+  "textItems": [
+    {
+      "id": "info",
+      "title": "What to bring",
+      "body": "One book you recommend"
+    }
+  ],
+  "shopName": "Sample Community Center",
+  "layoutType": "event"
+}

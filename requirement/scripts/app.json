@@ -1,0 +1,20 @@
+{
+  "app_id": "requirement",
+  "base_url": "https://requirement.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "createType",
+    "topic",
+    "version"
+  ],
+  "root_types": {
+    "version": "string",
+    "createType": "string",
+    "topic": "object"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

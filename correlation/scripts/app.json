@@ -1,0 +1,12 @@
+{
+  "app_id": "correlation",
+  "base_url": "https://correlation.tanaike.jp/",
+  "kind": "text",
+  "root_keys": [],
+  "root_types": {},
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

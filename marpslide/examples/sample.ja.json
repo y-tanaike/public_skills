@@ -1,0 +1,14 @@
+{
+  "version": "1",
+  "frame": "---\nmarp: true\ntheme: default\npaginate: true\n---",
+  "pageList": [
+    {
+      "id": "intro",
+      "markdown": "# 読書会\n\nおすすめの本を紹介し合いましょう。"
+    },
+    {
+      "id": "agenda",
+      "markdown": "# 当日の流れ\n\n- 自己紹介\n- 本の紹介\n- 感想の共有"
+    }
+  ]
+}

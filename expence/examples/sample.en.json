@@ -1,0 +1,17 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "expenseItemList": [
+    {
+      "id": "book1",
+      "title": "Book purchase",
+      "itemType": "item",
+      "type": "minus",
+      "price": 1500.0,
+      "label": "Learning",
+      "paymentDateTime": "2026-11-11T00:00:00.000",
+      "isAllDay": true,
+      "paymentMethod": "Cash"
+    }
+  ]
+}

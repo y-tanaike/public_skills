@@ -1,0 +1,40 @@
+{
+  "app_id": "led",
+  "base_url": "https://led.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "backgroundColor",
+    "bold",
+    "createType",
+    "dotSize",
+    "dotStyle",
+    "fontType",
+    "frameColor",
+    "frameType",
+    "glow",
+    "messages",
+    "mirror",
+    "templateType",
+    "version"
+  ],
+  "root_types": {
+    "version": "string",
+    "createType": "string",
+    "messages": "array",
+    "backgroundColor": "string",
+    "fontType": "string",
+    "bold": "boolean",
+    "glow": "boolean",
+    "dotStyle": "string",
+    "dotSize": "string",
+    "mirror": "boolean",
+    "frameType": "string",
+    "frameColor": "string",
+    "templateType": "string"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

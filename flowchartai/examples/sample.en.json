@@ -1,0 +1,40 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "topicMap": {
+    "start": {
+      "id": "start",
+      "title": "Receive request",
+      "topicType": "rectangle",
+      "sizeType": "standard"
+    },
+    "work": {
+      "id": "work",
+      "title": "Prepare a response",
+      "topicType": "rectangle",
+      "sizeType": "standard"
+    },
+    "done": {
+      "id": "done",
+      "title": "Complete",
+      "topicType": "rectangle",
+      "sizeType": "standard"
+    }
+  },
+  "relationMap": {
+    "edge0": {
+      "id": "edge0",
+      "fromTopicId": "start",
+      "toTopicId": "work",
+      "relationArrowType": "one",
+      "relationLineType": "solid"
+    },
+    "edge1": {
+      "id": "edge1",
+      "fromTopicId": "work",
+      "toTopicId": "done",
+      "relationArrowType": "one",
+      "relationLineType": "solid"
+    }
+  }
+}

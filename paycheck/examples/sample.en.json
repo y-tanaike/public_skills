@@ -1,0 +1,35 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "paymentYearMonth": "2026-11",
+  "paymentDate": "2026-11-25T00:00:00.000",
+  "company": {
+    "id": "company",
+    "name": "Sample Company"
+  },
+  "employee": {
+    "id": "employee",
+    "name": "Taro Yamada",
+    "employeeNumber": "SAMPLE-1",
+    "department": "Sales"
+  },
+  "workingDays": 20.0,
+  "attendanceDays": 20.0,
+  "workingHours": 160.0,
+  "earnings": [
+    {
+      "id": "base",
+      "name": "Base salary",
+      "amount": 250000.0
+    }
+  ],
+  "deductions": [
+    {
+      "id": "insurance",
+      "name": "Health insurance",
+      "amount": 13800.0
+    }
+  ],
+  "note": "Fictional payroll example.",
+  "layoutType": "standard"
+}

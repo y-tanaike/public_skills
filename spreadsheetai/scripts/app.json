@@ -1,0 +1,22 @@
+{
+  "app_id": "spreadsheetai",
+  "base_url": "https://spreadsheetai.tanaike.jp/",
+  "kind": "table",
+  "root_keys": [
+    "cellList",
+    "colList",
+    "fileEntity",
+    "rowList"
+  ],
+  "root_types": {
+    "cellList": "array",
+    "colList": "array",
+    "rowList": "array",
+    "fileEntity": "object"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

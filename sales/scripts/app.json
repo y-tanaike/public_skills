@@ -1,0 +1,20 @@
+{
+  "app_id": "sales",
+  "base_url": "https://sales.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "createType",
+    "salesItemList",
+    "version"
+  ],
+  "root_types": {
+    "version": "string",
+    "createType": "string",
+    "salesItemList": "array"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

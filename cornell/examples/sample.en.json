@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "type": "cornell",
+  "createType": "Flutter",
+  "noteMode": "text",
+  "ink": {
+    "width": 1000.0,
+    "height": 1414.0,
+    "layers": [
+      {
+        "id": "9b1b1de3-0219-44f5-bac7-eee94b81846b",
+        "name": "Layer 1",
+        "isVisible": true,
+        "isLocked": false,
+        "strokes": [],
+        "texts": []
+      }
+    ],
+    "activeLayerIndex": 0,
+    "ruling": "dotted"
+  },
+  "noteDelta": [
+    {
+      "insert": "Weekend reading group\nIntroduce a favorite book and a memorable passage.\n"
+    }
+  ],
+  "cues": [],
+  "summary": {
+    "text": "Next time, review how you applied what you learned."
+  }
+}

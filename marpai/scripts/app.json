@@ -1,0 +1,20 @@
+{
+  "app_id": "marpai",
+  "base_url": "https://marpai.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "frame",
+    "pageList",
+    "version"
+  ],
+  "root_types": {
+    "version": "string",
+    "frame": "string",
+    "pageList": "array"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

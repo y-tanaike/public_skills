@@ -1,0 +1,12 @@
+{
+  "app_id": "sequenceflow",
+  "base_url": "https://sequenceflow.tanaike.jp/",
+  "kind": "text",
+  "root_keys": [],
+  "root_types": {},
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

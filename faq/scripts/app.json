@@ -1,0 +1,40 @@
+{
+  "app_id": "faq",
+  "base_url": "https://faq.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "createType",
+    "description",
+    "documentTypeId",
+    "faqItemList",
+    "footer",
+    "htmlLayoutTypeId",
+    "isDescriptionMarkdown",
+    "pdfLayoutTypeId",
+    "showLabel",
+    "showLink",
+    "showPriority",
+    "title",
+    "version"
+  ],
+  "root_types": {
+    "version": "string",
+    "createType": "string",
+    "faqItemList": "array",
+    "documentTypeId": "string",
+    "htmlLayoutTypeId": "string",
+    "pdfLayoutTypeId": "string",
+    "title": "string",
+    "description": "string",
+    "isDescriptionMarkdown": "boolean",
+    "footer": "string",
+    "showLabel": "boolean",
+    "showPriority": "boolean",
+    "showLink": "boolean"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "app_id": "pos",
+  "base_url": "https://pos.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "createType",
+    "registerItemList",
+    "saleTransactionList",
+    "version"
+  ],
+  "root_types": {
+    "version": "string",
+    "createType": "string",
+    "registerItemList": "array",
+    "saleTransactionList": "array"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

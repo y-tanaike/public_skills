@@ -1,0 +1,34 @@
+{
+  "app_id": "shift",
+  "base_url": "https://shift.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "createType",
+    "customColorHexList",
+    "customLabelList",
+    "dateItemList",
+    "endDateTime",
+    "personList",
+    "shiftItemList",
+    "startDateTime",
+    "typeId",
+    "version"
+  ],
+  "root_types": {
+    "version": "string",
+    "createType": "string",
+    "typeId": "string",
+    "customLabelList": "array",
+    "customColorHexList": "array",
+    "personList": "array",
+    "dateItemList": "array",
+    "shiftItemList": "array",
+    "startDateTime": "string",
+    "endDateTime": "string"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "eventList": [
+    {
+      "id": "first",
+      "date": {
+        "year": 2026,
+        "month": 11,
+        "day": 21
+      },
+      "title": "読書会の初開催",
+      "categoryId": "group",
+      "note": "各参加者がお気に入りの本を紹介しました。"
+    }
+  ],
+  "categoryList": [
+    {
+      "id": "group",
+      "name": "読書会",
+      "colorHex": "#00ACC1"
+    }
+  ],
+  "layoutType": "vertical",
+  "layoutStyle": "card"
+}

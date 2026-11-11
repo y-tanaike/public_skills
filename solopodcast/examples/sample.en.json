@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "type": "podcast",
+  "createType": "Flutter",
+  "episodeId": "episode1",
+  "showName": "My reading diary",
+  "episodeNumber": "#1",
+  "showNotes": "A conversation about a favorite book.",
+  "partner": {
+    "name": "Ai",
+    "preset": "listener",
+    "personality": "A friendly listener who asks short questions.",
+    "pitch": 1.1,
+    "speechRate": 0.5
+  },
+  "segments": [
+    {
+      "id": "opening",
+      "title": "Opening",
+      "script": "Introduce the book and explain why you chose it.",
+      "targetSeconds": 60
+    }
+  ]
+}

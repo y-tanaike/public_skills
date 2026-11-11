@@ -1,0 +1,20 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "messages": [
+    {
+      "id": "welcome",
+      "itemType": "message",
+      "text": "Welcome to the reading group!",
+      "textColor": "#FFD60A",
+      "animation": "scrollLeft",
+      "speed": 5,
+      "displaySeconds": 3,
+      "textSizePercent": 70
+    }
+  ],
+  "backgroundColor": "#0B0B2B",
+  "fontType": "rounded",
+  "dotStyle": "round",
+  "dotSize": "medium"
+}

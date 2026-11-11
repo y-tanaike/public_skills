@@ -1,0 +1,11 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "eventTitle": "週末の読書会",
+  "hostName": "読書サークル",
+  "eventDate": "2026-11-21",
+  "eventTime": "14:00",
+  "venueName": "サンプル会議室",
+  "message": "おすすめの本を1冊お持ちください。",
+  "rsvpContact": "hello@example.com"
+}

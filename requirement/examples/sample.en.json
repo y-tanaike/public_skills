@@ -1,0 +1,22 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "topic": {
+    "id": "root",
+    "title": "Reading group website",
+    "itemType": "header",
+    "status": "draft",
+    "isOpenChild": true,
+    "childTopicList": [
+      {
+        "id": "registration",
+        "title": "Event registration",
+        "note": "Allow readers to register for the next meeting.",
+        "itemType": "item",
+        "status": "draft",
+        "isOpenChild": true,
+        "relatedTopicIdList": []
+      }
+    ]
+  }
+}

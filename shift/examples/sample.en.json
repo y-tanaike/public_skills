@@ -1,0 +1,22 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "startDateTime": "2026-11-11T00:00:00.000",
+  "endDateTime": "2026-11-12T00:00:00.000",
+  "typeId": "workRestShift",
+  "personList": [
+    {
+      "id": "person1",
+      "name": "Taro Yamada"
+    }
+  ],
+  "dateItemList": [],
+  "shiftItemList": [
+    {
+      "id": "shift1",
+      "personId": "person1",
+      "currentDateTime": "2026-11-11T00:00:00.000",
+      "workRestShiftTypeId": "work"
+    }
+  ]
+}

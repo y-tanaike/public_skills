@@ -1,0 +1,20 @@
+{
+  "app_id": "marpslide",
+  "base_url": "https://marpslide.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "frame",
+    "pageList",
+    "version"
+  ],
+  "root_types": {
+    "version": "string",
+    "frame": "string",
+    "pageList": "array"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

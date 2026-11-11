@@ -1,0 +1,10 @@
+{
+  "version": "1",
+  "frameHtml": "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><title>Reading group</title></head><body><!-- ### PAGES_INSERT ### --></body></html>",
+  "pageList": [
+    {
+      "id": "intro",
+      "html": "<section><h1>Reading group</h1><p>Share a book you recommend.</p></section>"
+    }
+  ]
+}

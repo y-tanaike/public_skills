@@ -1,0 +1,11 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "eventTitle": "Weekend reading group",
+  "hostName": "Reading Circle",
+  "eventDate": "2026-11-21",
+  "eventTime": "14:00",
+  "venueName": "Sample meeting room",
+  "message": "Please bring a book you recommend.",
+  "rsvpContact": "hello@example.com"
+}

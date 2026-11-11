@@ -1,0 +1,37 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "documentTitle": "Receipt",
+  "documentNumber": "SAMPLE-2026-001",
+  "issueDate": "2026-11-11",
+  "currencyCode": "JPY",
+  "layoutType": "simple",
+  "sender": {
+    "id": "sender",
+    "name": "Sample Studio",
+    "address": "Sample address",
+    "email": "hello@example.com"
+  },
+  "recipient": {
+    "id": "recipient",
+    "name": "Sample Company",
+    "email": "sample@example.org",
+    "honorificType": "none"
+  },
+  "lineItems": [
+    {
+      "id": "item1",
+      "description": "Design consultation",
+      "quantity": 1.0,
+      "unitLabel": "session",
+      "unitPrice": 10000.0
+    }
+  ],
+  "taxRate": 10.0,
+  "note": "Fictional sample for demonstration.",
+  "paymentDate": "2026-11-30",
+  "showLineItems": true,
+  "directAmount": 11000.0,
+  "paymentMethodType": "cash",
+  "receiptPurpose": "Design consultation fee"
+}

@@ -1,0 +1,43 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "layoutVersion": 1,
+  "layoutType": "center",
+  "connectionPathType": "straight",
+  "topicMap": {
+    "start": {
+      "id": "start",
+      "title": "依頼を受け付ける",
+      "topicType": "rectangle",
+      "sizeType": "standard"
+    },
+    "work": {
+      "id": "work",
+      "title": "回答を準備する",
+      "topicType": "rectangle",
+      "sizeType": "standard"
+    },
+    "done": {
+      "id": "done",
+      "title": "完了する",
+      "topicType": "rectangle",
+      "sizeType": "standard"
+    }
+  },
+  "relationMap": {
+    "edge0": {
+      "id": "edge0",
+      "fromTopicId": "start",
+      "toTopicId": "work",
+      "relationArrowType": "one",
+      "relationLineType": "solid"
+    },
+    "edge1": {
+      "id": "edge1",
+      "fromTopicId": "work",
+      "toTopicId": "done",
+      "relationArrowType": "one",
+      "relationLineType": "solid"
+    }
+  }
+}

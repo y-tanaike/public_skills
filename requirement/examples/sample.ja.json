@@ -1,0 +1,22 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "topic": {
+    "id": "root",
+    "title": "読書会のWebサイト",
+    "itemType": "header",
+    "status": "draft",
+    "isOpenChild": true,
+    "childTopicList": [
+      {
+        "id": "registration",
+        "title": "参加申し込み",
+        "note": "次回の読書会への参加を申し込めるようにする。",
+        "itemType": "item",
+        "status": "draft",
+        "isOpenChild": true,
+        "relatedTopicIdList": []
+      }
+    ]
+  }
+}

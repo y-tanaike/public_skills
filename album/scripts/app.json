@@ -1,0 +1,44 @@
+{
+  "app_id": "album",
+  "base_url": "https://album.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "albumSubtitle",
+    "albumTitle",
+    "backgroundColor",
+    "backgroundStyle",
+    "bookTemplateId",
+    "canvasRatio",
+    "cornerRadius",
+    "createType",
+    "frameColor",
+    "frameWidth",
+    "pages",
+    "photoGap",
+    "showPageNumber",
+    "showShadow",
+    "textColor",
+    "version"
+  ],
+  "root_types": {
+    "version": "string",
+    "createType": "string",
+    "canvasRatio": "string",
+    "showPageNumber": "boolean",
+    "bookTemplateId": "string",
+    "backgroundStyle": "string",
+    "backgroundColor": "string",
+    "frameColor": "string",
+    "textColor": "string",
+    "frameWidth": "integer",
+    "photoGap": "integer",
+    "cornerRadius": "integer",
+    "showShadow": "boolean",
+    "pages": "array"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

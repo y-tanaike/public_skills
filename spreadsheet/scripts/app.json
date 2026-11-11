@@ -1,0 +1,22 @@
+{
+  "app_id": "spreadsheet",
+  "base_url": "https://spreadsheet.tanaike.jp/",
+  "kind": "table",
+  "root_keys": [
+    "cellList",
+    "colList",
+    "fileEntity",
+    "rowList"
+  ],
+  "root_types": {
+    "cellList": "array",
+    "colList": "array",
+    "rowList": "array",
+    "fileEntity": "object"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "app_id": "quote",
+  "base_url": "https://quote.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "createType",
+    "currencyCode",
+    "discountAmount",
+    "discountLabel",
+    "documentNumber",
+    "documentTitle",
+    "expirationDate",
+    "issueDate",
+    "layoutType",
+    "lineItems",
+    "note",
+    "recipient",
+    "sender",
+    "taxRate",
+    "version"
+  ],
+  "root_types": {
+    "version": "string",
+    "createType": "string",
+    "documentTitle": "string",
+    "documentNumber": "string",
+    "issueDate": "string",
+    "expirationDate": "string",
+    "currencyCode": "string",
+    "layoutType": "string",
+    "lineItems": "array",
+    "taxRate": "number",
+    "discountLabel": "string",
+    "discountAmount": "number",
+    "note": "string",
+    "sender": "object",
+    "recipient": "object"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

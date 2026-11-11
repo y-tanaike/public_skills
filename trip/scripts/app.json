@@ -1,0 +1,21 @@
+{
+  "app_id": "trip",
+  "base_url": "https://trip.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "createType",
+    "expenseItemList",
+    "tripItemList",
+    "version"
+  ],
+  "root_types": {
+    "version": "string",
+    "createType": "string",
+    "tripItemList": "array"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "app_id": "slide",
+  "base_url": "https://slide.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "author",
+    "confidentialityLevel",
+    "contentLicenseType",
+    "customLicenseText",
+    "fontScaleType",
+    "footer",
+    "licenseHolder",
+    "pageNumberDisplayType",
+    "slideLayoutType",
+    "slideList",
+    "themeColorHex",
+    "themeType",
+    "version"
+  ],
+  "root_types": {
+    "version": "string",
+    "slideList": "array",
+    "footer": "string",
+    "author": "string",
+    "themeColorHex": "string",
+    "customLicenseText": "string",
+    "licenseHolder": "string",
+    "themeType": "string",
+    "pageNumberDisplayType": "string",
+    "slideLayoutType": "string",
+    "fontScaleType": "string",
+    "confidentialityLevel": "string",
+    "contentLicenseType": "string"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

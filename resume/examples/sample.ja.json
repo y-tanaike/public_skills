@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "documentTitle": "履歴書",
+  "documentDate": "2026/11/11",
+  "layoutType": "simple",
+  "name": "山田 太郎",
+  "nameReading": "やまだ たろう",
+  "email": "sample@example.com",
+  "currentCompany": "サンプル技術株式会社",
+  "currentJobTitle": "ソフトウェアエンジニア",
+  "professionalSummary": "Flutterを使ったモバイルアプリを開発しています。",
+  "skillItems": [
+    {
+      "id": "flutter",
+      "name": "Flutter / Dart",
+      "level": "上級"
+    }
+  ],
+  "workItems": [
+    {
+      "id": "work1",
+      "startYear": "2021",
+      "startMonth": "4",
+      "isCurrent": true,
+      "companyName": "サンプル技術株式会社",
+      "responsibilities": "モバイルアプリの設計と開発。"
+    }
+  ],
+  "note": "説明用の架空の応募者です。"
+}

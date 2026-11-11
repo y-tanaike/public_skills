@@ -1,0 +1,24 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "shopId": "shop1",
+  "shopName": "サンプルカフェ",
+  "tagline": "手作りのお菓子とくつろぎの時間",
+  "currencyCode": "JPY",
+  "layoutType": "detail",
+  "paperSize": "a4",
+  "menuItems": [
+    {
+      "id": "header",
+      "type": "header",
+      "name": "ドリンク"
+    },
+    {
+      "id": "coffee",
+      "type": "item",
+      "name": "コーヒー",
+      "description": "自家焙煎のブレンド",
+      "price": 450.0
+    }
+  ]
+}

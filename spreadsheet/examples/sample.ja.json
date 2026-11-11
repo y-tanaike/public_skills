@@ -1,0 +1,28 @@
+{
+  "fileEntity": {
+    "name": "読書の記録"
+  },
+  "colList": [
+    {
+      "title": "月曜日",
+      "isCol": 1
+    },
+    {
+      "title": "火曜日",
+      "isCol": 1
+    }
+  ],
+  "rowList": [
+    {
+      "title": "読書",
+      "isCol": 0
+    }
+  ],
+  "cellList": [
+    {
+      "col": 0,
+      "row": 0,
+      "title": "10ページ"
+    }
+  ]
+}

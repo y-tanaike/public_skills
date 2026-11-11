@@ -1,0 +1,94 @@
+{
+  "title": "Build a reading habit",
+  "description": "Read a little at a time and apply what you learn.",
+  "childMandalaCellList": [
+    {
+      "title": "Reading time",
+      "childMandalaCellList": [
+        {
+          "title": "Read for ten minutes before bed"
+        },
+        {
+          "title": "Read one page after breakfast"
+        }
+      ]
+    },
+    {
+      "title": "Choose books",
+      "childMandalaCellList": [
+        {
+          "title": "Keep a reading list"
+        },
+        {
+          "title": "Visit the library each month"
+        }
+      ]
+    },
+    {
+      "title": "Take notes",
+      "childMandalaCellList": [
+        {
+          "title": "Write down one discovery"
+        },
+        {
+          "title": "Save a favorite passage"
+        }
+      ]
+    },
+    {
+      "title": "Apply learning",
+      "childMandalaCellList": [
+        {
+          "title": "Try one idea each week"
+        },
+        {
+          "title": "Explain an idea in your own words"
+        }
+      ]
+    },
+    {
+      "title": "Prepare a space",
+      "childMandalaCellList": [
+        {
+          "title": "Leave a book by the bed"
+        },
+        {
+          "title": "Put your phone away while reading"
+        }
+      ]
+    },
+    {
+      "title": "Discuss books",
+      "childMandalaCellList": [
+        {
+          "title": "Recommend a book to a friend"
+        },
+        {
+          "title": "Attend a reading group"
+        }
+      ]
+    },
+    {
+      "title": "Keep it manageable",
+      "childMandalaCellList": [
+        {
+          "title": "Choose a short book when busy"
+        },
+        {
+          "title": "Celebrate finishing a book"
+        }
+      ]
+    },
+    {
+      "title": "Review progress",
+      "childMandalaCellList": [
+        {
+          "title": "Review your notes each month"
+        },
+        {
+          "title": "Choose a theme for next month"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "eventList": [
+    {
+      "id": "first",
+      "date": {
+        "year": 2026,
+        "month": 11,
+        "day": 21
+      },
+      "title": "First reading group meeting",
+      "categoryId": "group",
+      "note": "Each member introduced a favorite book."
+    }
+  ],
+  "categoryList": [
+    {
+      "id": "group",
+      "name": "Reading group",
+      "colorHex": "#00ACC1"
+    }
+  ],
+  "layoutType": "vertical",
+  "layoutStyle": "card"
+}

@@ -1,0 +1,46 @@
+{
+  "app_id": "collage",
+  "base_url": "https://collage.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "backgroundColor",
+    "canvasRatio",
+    "caption",
+    "cornerRadius",
+    "createType",
+    "frameColor",
+    "frameWidth",
+    "layoutType",
+    "photoGap",
+    "photoItems",
+    "showShadow",
+    "showTitle",
+    "subtitle",
+    "textColor",
+    "title",
+    "version"
+  ],
+  "root_types": {
+    "version": "string",
+    "createType": "string",
+    "title": "string",
+    "subtitle": "string",
+    "caption": "string",
+    "showTitle": "boolean",
+    "photoItems": "array",
+    "layoutType": "string",
+    "canvasRatio": "string",
+    "backgroundColor": "string",
+    "frameColor": "string",
+    "textColor": "string",
+    "frameWidth": "integer",
+    "photoGap": "integer",
+    "cornerRadius": "integer",
+    "showShadow": "boolean"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

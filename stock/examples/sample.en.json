@@ -1,0 +1,16 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "stockItemList": [
+    {
+      "id": "stock1",
+      "title": "Coffee beans",
+      "type": "item",
+      "quantityType": "integer",
+      "quantity": 5.0,
+      "minQuantity": 2.0,
+      "unit": "bag",
+      "note": "Restock when two bags remain."
+    }
+  ]
+}

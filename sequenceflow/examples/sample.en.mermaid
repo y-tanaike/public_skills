@@ -1,0 +1,8 @@
+sequenceDiagram
+  participant U as User
+  participant A as App
+  participant S as Server
+  U->>A: Log in
+  A->>S: Authentication request
+  S-->>A: Authentication result
+  A-->>U: Home screen

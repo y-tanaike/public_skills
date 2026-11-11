@@ -1,0 +1,14 @@
+{
+  "version": "1",
+  "slideList": [
+    {
+      "id": "intro",
+      "title": "読書会",
+      "subtitle": "みんなで本に出会う",
+      "slideType": "title"
+    }
+  ],
+  "author": "サンプル読書サークル",
+  "themeType": "modern",
+  "slideLayoutType": "screen_16x9"
+}

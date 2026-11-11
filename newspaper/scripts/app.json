@@ -1,0 +1,45 @@
+{
+  "app_id": "newspaper",
+  "base_url": "https://newspaper.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "backgroundColor",
+    "badge",
+    "columns",
+    "createType",
+    "description",
+    "imageItems",
+    "layoutType",
+    "newspaperStyle",
+    "note",
+    "period",
+    "shopName",
+    "subtitle",
+    "textItems",
+    "title",
+    "version",
+    "verticalWriting"
+  ],
+  "root_types": {
+    "version": "string",
+    "createType": "string",
+    "title": "string",
+    "subtitle": "string",
+    "period": "string",
+    "description": "string",
+    "badge": "string",
+    "textItems": "array",
+    "imageItems": "array",
+    "note": "string",
+    "backgroundColor": "string",
+    "newspaperStyle": "string",
+    "layoutType": "string",
+    "verticalWriting": "boolean",
+    "columns": "integer"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "tripItemList": [
+    {
+      "id": "library",
+      "title": "Visit the library",
+      "location": "Sample Library",
+      "iconType": "walk",
+      "dateTime": "2026-11-21T10:00:00.000",
+      "note": "Choose a book for the reading group."
+    }
+  ]
+}

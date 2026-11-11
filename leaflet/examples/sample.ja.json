@@ -1,0 +1,18 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "title": "週末の読書会",
+  "subtitle": "次のお気に入りの本を見つけよう",
+  "period": "2026年11月21日 14:00",
+  "description": "本を持ち寄り、好きなところを紹介し合います。",
+  "badge": "参加無料",
+  "textItems": [
+    {
+      "id": "info",
+      "title": "持ち物",
+      "body": "おすすめの本を1冊"
+    }
+  ],
+  "shopName": "サンプル公民館",
+  "layoutType": "event"
+}

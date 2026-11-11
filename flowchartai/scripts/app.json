@@ -1,0 +1,22 @@
+{
+  "app_id": "flowchartai",
+  "base_url": "https://flowchartai.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "createType",
+    "relationMap",
+    "topicMap",
+    "version"
+  ],
+  "root_types": {
+    "version": "string",
+    "createType": "string",
+    "topicMap": "object",
+    "relationMap": "object"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "app_id": "htmlslide",
+  "base_url": "https://htmlslide.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "frameHtml",
+    "pageList",
+    "version"
+  ],
+  "root_types": {
+    "version": "string",
+    "pageList": "array",
+    "frameHtml": "string"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "app_id": "zukai",
+  "base_url": "https://zukai.tanaike.jp/",
+  "kind": "text",
+  "root_keys": [],
+  "root_types": {},
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

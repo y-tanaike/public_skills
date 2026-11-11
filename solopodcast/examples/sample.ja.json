@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "type": "podcast",
+  "createType": "Flutter",
+  "episodeId": "episode1",
+  "showName": "わたしの読書日記",
+  "episodeNumber": "#1",
+  "showNotes": "お気に入りの本について話します。",
+  "partner": {
+    "name": "アイ",
+    "preset": "listener",
+    "personality": "短い質問をする親しみやすい聞き手。",
+    "pitch": 1.1,
+    "speechRate": 0.5
+  },
+  "segments": [
+    {
+      "id": "opening",
+      "title": "オープニング",
+      "script": "本の紹介と、その本を選んだ理由を話す。",
+      "targetSeconds": 60
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "title": "発見がいっぱいの読書会",
+  "description": "公民館に集まった参加者が、お気に入りの本を紹介しました。印象に残った一節や、試してみたい考えを共有しました。次回は今回の学びを振り返ります。",
+  "shopName": "サンプル読書サークル",
+  "newspaperStyle": "plain",
+  "layoutType": "simpleOnePhoto",
+  "verticalWriting": true,
+  "columns": 2
+}

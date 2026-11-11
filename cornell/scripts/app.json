@@ -1,0 +1,30 @@
+{
+  "app_id": "cornell",
+  "base_url": "https://cornell.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "createType",
+    "cues",
+    "ink",
+    "noteDelta",
+    "noteMode",
+    "summary",
+    "type",
+    "version"
+  ],
+  "root_types": {
+    "cues": "array",
+    "version": "integer",
+    "type": "string",
+    "createType": "string",
+    "noteMode": "string",
+    "ink": "object",
+    "noteDelta": "array",
+    "summary": "object"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

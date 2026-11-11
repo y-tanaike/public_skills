@@ -1,0 +1,28 @@
+{
+  "app_id": "graph",
+  "base_url": "https://graph.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "axisList",
+    "createType",
+    "graphItemList",
+    "graphList",
+    "headerHeight",
+    "headerWidth",
+    "version"
+  ],
+  "root_types": {
+    "version": "string",
+    "createType": "string",
+    "graphItemList": "array",
+    "axisList": "array",
+    "graphList": "array",
+    "headerWidth": "integer",
+    "headerHeight": "integer"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

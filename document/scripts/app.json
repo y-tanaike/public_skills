@@ -1,0 +1,20 @@
+{
+  "app_id": "document",
+  "base_url": "https://document.tanaike.jp/",
+  "kind": "json",
+  "root_keys": [
+    "createType",
+    "document",
+    "version"
+  ],
+  "root_types": {
+    "version": "string",
+    "createType": "string",
+    "document": "string"
+  },
+  "metadata_keys": [
+    "version",
+    "createType",
+    "type"
+  ]
+}

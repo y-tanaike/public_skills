@@ -1,0 +1,24 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "shopId": "shop1",
+  "shopName": "Sample Cafe",
+  "tagline": "A relaxing break with homemade treats",
+  "currencyCode": "JPY",
+  "layoutType": "detail",
+  "paperSize": "a4",
+  "menuItems": [
+    {
+      "id": "header",
+      "type": "header",
+      "name": "Drinks"
+    },
+    {
+      "id": "coffee",
+      "type": "item",
+      "name": "Coffee",
+      "description": "Freshly roasted house blend",
+      "price": 450.0
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "paymentYearMonth": "2026-11",
+  "paymentDate": "2026-11-25T00:00:00.000",
+  "company": {
+    "id": "company",
+    "name": "サンプル株式会社"
+  },
+  "employee": {
+    "id": "employee",
+    "name": "山田 太郎",
+    "employeeNumber": "SAMPLE-1",
+    "department": "営業部"
+  },
+  "workingDays": 20.0,
+  "attendanceDays": 20.0,
+  "workingHours": 160.0,
+  "earnings": [
+    {
+      "id": "base",
+      "name": "基本給",
+      "amount": 250000.0
+    }
+  ],
+  "deductions": [
+    {
+      "id": "insurance",
+      "name": "健康保険料",
+      "amount": 13800.0
+    }
+  ],
+  "note": "説明用の架空の給与明細です。",
+  "layoutType": "standard"
+}

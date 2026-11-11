@@ -1,0 +1,23 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "topic": {
+    "id": "root",
+    "title": "Prepare a new service",
+    "isOpenChild": true,
+    "childTopicList": [
+      {
+        "id": "plan",
+        "title": "Make a plan",
+        "isOpenChild": true,
+        "childTopicList": []
+      },
+      {
+        "id": "review",
+        "title": "Review the results",
+        "isOpenChild": true,
+        "childTopicList": []
+      }
+    ]
+  }
+}

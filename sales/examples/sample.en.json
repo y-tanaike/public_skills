@@ -1,0 +1,17 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "salesItemList": [
+    {
+      "id": "sale1",
+      "title": "Coffee beans",
+      "itemType": "item",
+      "soldAt": "2026-11-11T10:00:00.000",
+      "unitPrice": 1200,
+      "quantity": 2.0,
+      "unit": "bag",
+      "channel": "Store",
+      "paymentMethod": "Cash"
+    }
+  ]
+}

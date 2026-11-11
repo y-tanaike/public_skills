@@ -1,0 +1,1995 @@
+{
+  "checked_at": "2026-11-11",
+  "scope": "Content embedded in sharing URLs; excludes Google Drive file sharing.",
+  "apps": [
+    {
+      "id": "ai",
+      "name": "AI Mandala",
+      "base_url": "https://ai.mandalachart.com/",
+      "kind": "mandala",
+      "example": "examples/sample.en.json",
+      "source": "mandala-ai/mandala-ai-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "AIマンダラ",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "album",
+      "name": "Album",
+      "base_url": "https://album.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "album/album-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "アルバム",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "bulletsmind",
+      "name": "BulletsMind",
+      "base_url": "https://bullets-mind.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "BulletsMind/bulletsmind-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "BulletsMind（階層アウトライン）",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "checksheet",
+      "name": "Checksheet",
+      "base_url": "https://checksheet.tanaike.jp/",
+      "kind": "table",
+      "example": "examples/sample.en.json",
+      "source": "checksheet/checksheet_flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "チェックシート",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "collage",
+      "name": "Collage",
+      "base_url": "https://collage.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "collage/collage-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "コラージュ",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "cornell",
+      "name": "Cornell Notes",
+      "base_url": "https://cornell.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "cornell/cornell-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "コーネル式ノート",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "correlation",
+      "name": "Mermaid Correlation Diagram",
+      "base_url": "https://correlation.tanaike.jp/",
+      "kind": "text",
+      "example": "examples/sample.en.mermaid",
+      "source": "correlation/correlation_flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "Mermaid相関図",
+      "examples": {
+        "en": "examples/sample.en.mermaid",
+        "ja": "examples/sample.ja.mermaid"
+      }
+    },
+    {
+      "id": "correlationai",
+      "name": "AI Correlation Diagram",
+      "base_url": "https://correlationai.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "correlation-simple-ai/correlationai-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "AI相関図",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "customer",
+      "name": "Customer Manager",
+      "base_url": "https://customer.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "customer/customer-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "顧客管理",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "delivery",
+      "name": "Delivery Note",
+      "base_url": "https://delivery.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "delivery/delivery-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "納品書",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "document",
+      "name": "Rich Text Document",
+      "base_url": "https://document.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "document/document-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "リッチテキスト文書",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "er",
+      "name": "ER Diagram",
+      "base_url": "https://er.tanaike.jp/",
+      "kind": "text",
+      "example": "examples/sample.en.mermaid",
+      "source": "er/er_flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "ER図",
+      "examples": {
+        "en": "examples/sample.en.mermaid",
+        "ja": "examples/sample.ja.mermaid"
+      }
+    },
+    {
+      "id": "expence",
+      "name": "Expense Manager",
+      "base_url": "https://expence.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "expence/expence-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "経費管理",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "faq",
+      "name": "FAQ",
+      "base_url": "https://faq.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "faq/faq-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "FAQ作成",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "flowchart",
+      "name": "Mermaid Flowchart",
+      "base_url": "https://flowchart.tanaike.jp/",
+      "kind": "text",
+      "example": "examples/sample.en.mermaid",
+      "source": "flowchart/flowchart_flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "Mermaidフローチャート",
+      "examples": {
+        "en": "examples/sample.en.mermaid",
+        "ja": "examples/sample.ja.mermaid"
+      }
+    },
+    {
+      "id": "flowchartai",
+      "name": "AI Flowchart",
+      "base_url": "https://flowchartai.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "flowchart-simple-ai/flowchartai-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "AIフローチャート",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "ganttchart",
+      "name": "Gantt Chart",
+      "base_url": "https://ganttchart.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "ganttchart/ganttchart_flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "ガントチャート",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "ganttchartai",
+      "name": "AI Gantt Chart",
+      "base_url": "https://ganttchartai.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "ganttchart-ai/ganttchartai-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "AIガントチャート",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "giji",
+      "name": "Mandala Meeting Notes",
+      "base_url": "https://giji.mandalachart.com/",
+      "kind": "mandala",
+      "example": "examples/sample.en.json",
+      "source": "mandala-giji/mandala-giji-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "マンダラ議事録",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "goal",
+      "name": "Mandala Goals",
+      "base_url": "https://goal.mandalachart.com/",
+      "kind": "mandala",
+      "example": "examples/sample.en.json",
+      "source": "mandala-goal/mandala-goal-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "マンダラ目標",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "graph",
+      "name": "Graph",
+      "base_url": "https://graph.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "graph/graph-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "グラフ作成",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "htmlai",
+      "name": "AI HTML Editor",
+      "base_url": "https://htmlai.tanaike.jp/",
+      "kind": "text",
+      "example": "examples/sample.en.html",
+      "source": "htmlai/htmlai-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "AI HTML編集",
+      "examples": {
+        "en": "examples/sample.en.html",
+        "ja": "examples/sample.ja.html"
+      }
+    },
+    {
+      "id": "htmlslide",
+      "name": "HTML Slides",
+      "base_url": "https://htmlslide.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "htmlslide/htmlslide-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "HTMLスライド",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "inknote",
+      "name": "Ink Note",
+      "base_url": "https://inknote.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "inknote/inknote-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "手書きノート",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "invitation",
+      "name": "Invitation",
+      "base_url": "https://invitation.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "invitation/invitation-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "招待状",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "invoice",
+      "name": "Invoice",
+      "base_url": "https://invoice.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "invoice/invoice-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "請求書",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "javascript",
+      "name": "JavaScript Editor",
+      "base_url": "https://javascript.tanaike.jp/",
+      "kind": "text",
+      "example": "examples/sample.en.js",
+      "source": "javascript/javascript-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "JavaScript編集",
+      "examples": {
+        "en": "examples/sample.en.js",
+        "ja": "examples/sample.ja.js"
+      }
+    },
+    {
+      "id": "leaflet",
+      "name": "Flyer",
+      "base_url": "https://leaflet.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "leaflet/leaflet-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "チラシ・POP",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "led",
+      "name": "LED Board",
+      "base_url": "https://led.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "led/led-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "LED電光掲示板",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "mandalachart",
+      "name": "Mandala Manager",
+      "base_url": "https://app.mandalachart.com/",
+      "kind": "mandala",
+      "example": "examples/sample.en.json",
+      "source": "mandalachart-flutter/mandalachart-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "マンダラ",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "markdown",
+      "name": "Markdown Editor",
+      "base_url": "https://markdown.tanaike.jp/",
+      "kind": "text",
+      "example": "examples/sample.en.md",
+      "source": "markdown/markdown-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "Markdown編集",
+      "examples": {
+        "en": "examples/sample.en.md",
+        "ja": "examples/sample.ja.md"
+      }
+    },
+    {
+      "id": "marpai",
+      "name": "AI Marp Slides",
+      "base_url": "https://marpai.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "marpai/marpai-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "AI Marpスライド",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "marpslide",
+      "name": "Marp Slides",
+      "base_url": "https://marpslide.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "marpslide/marpslide-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "Marpスライド",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "matchtable",
+      "name": "Match Table",
+      "base_url": "https://matchtable.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "matchtable/matchtable-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "対戦表",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "meishi",
+      "name": "Business Card",
+      "base_url": "https://meishi.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "meishi/meishi-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "名刺",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "menu",
+      "name": "Menu",
+      "base_url": "https://menu.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "menu/menu-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "メニュー表",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "newspaper",
+      "name": "Newspaper",
+      "base_url": "https://newspaper.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "newspaper/newspaper-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "新聞",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "orderform",
+      "name": "Purchase Order",
+      "base_url": "https://orderform.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "orderform/orderform-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "発注書",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "orderslip",
+      "name": "Order Slip",
+      "base_url": "https://orderslip.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "orderslip/orderslip-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "注文伝票",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "outlineai",
+      "name": "AI Outline",
+      "base_url": "https://outlineai.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "outline-ai/outlineai-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "AIアウトライン",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "paycheck",
+      "name": "Payslip",
+      "base_url": "https://paycheck.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "paycheck/paycheck-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "給与明細",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "pixelart",
+      "name": "Pixel Art",
+      "base_url": "https://pixelart.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "pixelart/pixelart-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "ドット絵",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "pos",
+      "name": "Point of Sale",
+      "base_url": "https://pos.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "pos/pos-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "レジ・会計",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "posecraft",
+      "name": "PoseCraft",
+      "base_url": "https://posecraft.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "posecraft/posecraft-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "PoseCraft（3Dポーズ）",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "python",
+      "name": "Python Editor",
+      "base_url": "https://python.tanaike.jp/",
+      "kind": "text",
+      "example": "examples/sample.en.py",
+      "source": "python/python-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "Python編集",
+      "examples": {
+        "en": "examples/sample.en.py",
+        "ja": "examples/sample.ja.py"
+      }
+    },
+    {
+      "id": "quote",
+      "name": "Quote",
+      "base_url": "https://quote.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "quote/quote-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "見積書",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "receipt",
+      "name": "Receipt",
+      "base_url": "https://receipt.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "receipt/receipt-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "領収書",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "requirement",
+      "name": "Requirements",
+      "base_url": "https://requirement.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "requirement/requirement-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "要件整理",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "resume",
+      "name": "Resume",
+      "base_url": "https://resume.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "resume/resume-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "履歴書",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "rust",
+      "name": "Rust Editor",
+      "base_url": "",
+      "kind": "text",
+      "example": "examples/sample.en.rs",
+      "source": "rust/rust-flutter",
+      "status": "requires_base_url",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "Rust編集",
+      "examples": {
+        "en": "examples/sample.en.rs",
+        "ja": "examples/sample.ja.rs"
+      }
+    },
+    {
+      "id": "sales",
+      "name": "Sales Manager",
+      "base_url": "https://sales.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "sales/sales-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "売上管理",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "sequenceflow",
+      "name": "Sequence Diagram",
+      "base_url": "https://sequenceflow.tanaike.jp/",
+      "kind": "text",
+      "example": "examples/sample.en.mermaid",
+      "source": "sequenceflow/sequenceflow_flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "シーケンス図",
+      "examples": {
+        "en": "examples/sample.en.mermaid",
+        "ja": "examples/sample.ja.mermaid"
+      }
+    },
+    {
+      "id": "shift",
+      "name": "Shift Schedule",
+      "base_url": "https://shift.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "shift/shift-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "シフト表",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "shopcard",
+      "name": "Shop Card",
+      "base_url": "https://shopcard.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "shopcard/shopcard-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "ショップカード",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "shtml",
+      "name": "HTML Editor",
+      "base_url": "https://html.tanaike.jp/",
+      "kind": "text",
+      "example": "examples/sample.en.html",
+      "source": "html/html-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "HTML編集",
+      "examples": {
+        "en": "examples/sample.en.html",
+        "ja": "examples/sample.ja.html"
+      }
+    },
+    {
+      "id": "simplecorrelation",
+      "name": "Simple Correlation Diagram",
+      "base_url": "https://simplecorrelation.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "correlation-simple/correlation-simple-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "シンプル相関図",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "simpleflowchart",
+      "name": "Simple Flowchart",
+      "base_url": "https://simpleflowchart.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "flowchart-simple/flowchart-simple-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "シンプルフローチャート",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "slide",
+      "name": "Slides",
+      "base_url": "https://slide.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "slide/slide-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "スライド",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "slideai",
+      "name": "AI Slides",
+      "base_url": "https://slideai.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "slideai/slideai-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "AIスライド",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "solopodcast",
+      "name": "Solo Podcast",
+      "base_url": "",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "solopodcast/solopodcast-flutter",
+      "status": "requires_base_url",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "ひとりポッドキャスト",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "spreadsheet",
+      "name": "Spreadsheet",
+      "base_url": "https://spreadsheet.tanaike.jp/",
+      "kind": "table",
+      "example": "examples/sample.en.json",
+      "source": "spreadsheet/spreadsheet_flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "表作成",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "spreadsheetai",
+      "name": "AI Spreadsheet",
+      "base_url": "https://spreadsheetai.tanaike.jp/",
+      "kind": "table",
+      "example": "examples/sample.en.json",
+      "source": "spreadsheet-ai/spreadsheetai-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "AI表作成",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "stamp",
+      "name": "Stamp Card",
+      "base_url": "https://stamp.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "stamp/stamp-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "スタンプカード",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "stock",
+      "name": "Stock Manager",
+      "base_url": "https://stock.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "stock/stock-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "在庫管理",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "timeline",
+      "name": "Timeline",
+      "base_url": "https://timeline.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "timeline/timeline-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "年表",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "timetable",
+      "name": "Timetable",
+      "base_url": "https://timetable.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "timetable/timetable-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "時間割・タイムテーブル",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "tournament",
+      "name": "Tournament",
+      "base_url": "https://tournament.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "tournament/tournament-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "tournament",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "trip",
+      "name": "Trip Planner",
+      "base_url": "https://trip.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "trip/trip-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "旅のしおり",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "typescript",
+      "name": "TypeScript Editor",
+      "base_url": "https://typescript.tanaike.jp/",
+      "kind": "text",
+      "example": "examples/sample.en.ts",
+      "source": "typescript/typescript-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "TypeScript編集",
+      "examples": {
+        "en": "examples/sample.en.ts",
+        "ja": "examples/sample.ja.ts"
+      }
+    },
+    {
+      "id": "visualizeai",
+      "name": "Visualize AI",
+      "base_url": "https://visualizeai.tanaike.jp/",
+      "kind": "json",
+      "example": "examples/sample.en.json",
+      "source": "simple-visualize-ai/visualizeai-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "AIビジュアライズ",
+      "examples": {
+        "en": "examples/sample.en.json",
+        "ja": "examples/sample.ja.json"
+      }
+    },
+    {
+      "id": "zukai",
+      "name": "AI Diagram",
+      "base_url": "https://zukai.tanaike.jp/",
+      "kind": "text",
+      "example": "examples/sample.en.mermaid",
+      "source": "zukai-ai/zukai-flutter",
+      "status": "ready",
+      "validation": {
+        "sample_roundtrip": "passed",
+        "flutter_decoder": "passed",
+        "skill_format": "passed",
+        "sample_roundtrip_locales": {
+          "en": "passed",
+          "ja": "passed"
+        },
+        "flutter_decoder_locales": {
+          "en": "passed",
+          "ja": "passed"
+        }
+      },
+      "name_ja": "AI図解",
+      "examples": {
+        "en": "examples/sample.en.mermaid",
+        "ja": "examples/sample.ja.mermaid"
+      }
+    }
+  ],
+  "unsupported": [
+    {
+      "id": "analysis",
+      "source": "analysis/analysis-flutter",
+      "reason": "Embedded-content URL receiving is not implemented."
+    },
+    {
+      "id": "diary",
+      "source": "diary/diary-flutter",
+      "reason": "Embedded-content URL receiving is not implemented."
+    },
+    {
+      "id": "diaryai",
+      "source": "diaryai/diaryai-flutter",
+      "reason": "Embedded-content URL receiving is not implemented."
+    },
+    {
+      "id": "heatspotmap",
+      "source": "heatspotmap/beeftongue-flutter",
+      "reason": "Embedded-content URL receiving is not implemented."
+    },
+    {
+      "id": "life",
+      "source": "mandala-life/mandala-life-flutter",
+      "reason": "Embedded-content URL receiving is not implemented."
+    },
+    {
+      "id": "mlb",
+      "source": "mlb/mlb-flutter",
+      "reason": "Embedded-content URL receiving is not implemented."
+    },
+    {
+      "id": "keyword",
+      "source": "keyword/keyword-flutter",
+      "reason": "Embedded-content URL receiving is not implemented."
+    },
+    {
+      "id": "idea",
+      "source": "idea-creator/idea-creator-flutter",
+      "reason": "Embedded-content URL receiving is not implemented."
+    },
+    {
+      "id": "gift",
+      "source": "gift-ai/gift-ai-flutter",
+      "reason": "Embedded-content URL receiving is not implemented."
+    },
+    {
+      "id": "story",
+      "source": "story/story-flutter",
+      "reason": "Embedded-content URL receiving is not implemented."
+    },
+    {
+      "id": "funnews",
+      "source": "FunNews/funnews-flutter",
+      "reason": "Embedded-content URL receiving is not implemented."
+    },
+    {
+      "id": "review",
+      "source": "review_replyer/review_replyer_flutter",
+      "reason": "Embedded-content URL receiving is not implemented."
+    },
+    {
+      "id": "blockdoceditor",
+      "source": "blockdoceditor/blockdoceditor",
+      "reason": "Embedded-content URL receiving is not implemented."
+    }
+  ],
+  "instruction_language": "en",
+  "sample_languages": [
+    "en",
+    "ja"
+  ]
+}

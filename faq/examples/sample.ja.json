@@ -1,0 +1,16 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "title": "読書会のよくある質問",
+  "documentTypeId": "html",
+  "htmlLayoutTypeId": "accordion",
+  "faqItemList": [
+    {
+      "id": "question1",
+      "question": "何を持っていけばよいですか？",
+      "answer": "おすすめの本を1冊お持ちください。",
+      "itemType": "item",
+      "isExpanded": true
+    }
+  ]
+}

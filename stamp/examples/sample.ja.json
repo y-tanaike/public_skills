@@ -1,0 +1,21 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "cardType": "stamp",
+  "shopName": "サンプルカフェ",
+  "website": "https://example.com",
+  "stampCount": 10,
+  "showStampNumbers": true,
+  "stampSlotNotes": [
+    {
+      "position": 5,
+      "text": "10%割引"
+    }
+  ],
+  "stampNote": "ドリンク1杯につき1スタンプ。10個でドリンク1杯サービス。",
+  "expirationType": "text",
+  "expirationText": "最終来店日から6か月",
+  "isDoubleSided": true,
+  "layoutType": "cafe",
+  "orientation": "yoko"
+}

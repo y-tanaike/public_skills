@@ -1,0 +1,11 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "title": "A reading group full of discoveries",
+  "description": "Readers gathered at the community center to introduce their favorite books. Each participant shared a memorable passage and a new idea to try. The next meeting will revisit what everyone learned.",
+  "shopName": "Sample Reading Circle",
+  "newspaperStyle": "plain",
+  "layoutType": "simpleOnePhoto",
+  "verticalWriting": false,
+  "columns": 2
+}

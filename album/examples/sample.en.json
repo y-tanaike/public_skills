@@ -1,0 +1,33 @@
+{
+  "version": "1",
+  "createType": "Flutter",
+  "canvasRatio": "portrait",
+  "bookTemplateId": "8_1",
+  "backgroundStyle": "plain",
+  "photoGap": 6,
+  "cornerRadius": 8,
+  "pages": [
+    {
+      "id": "0c223f74-e414-46fd-ac97-9990362f0ebd",
+      "pageType": "front_cover",
+      "backgroundStyle": "plain",
+      "title": "Our reading memories",
+      "subtitle": "Books we enjoyed together",
+      "showTitle": true,
+      "photoItems": [
+        {
+          "id": "1794395263321360-photo0",
+          "caption": "Our favorite books",
+          "scale": 1.0,
+          "x": 10.0,
+          "y": 10.0,
+          "width": 40.0
+        }
+      ],
+      "showPhotos": true,
+      "layoutType": "hero_topleft_6",
+      "photoGap": 6,
+      "cornerRadius": 8
+    }
+  ]
+}
