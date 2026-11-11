@@ -1,16 +1,51 @@
-# アプリの内容をURLで作成するSkills
+# ガントチャート・図解・文書などの内容を作成するAI Skills
 
 [English](README.md) | 日本語
+
+棚池祐樹が提供する、ガントチャート・マインドマップ・図解・名刺などのアプリ向けAI Skillsです。各Skillに手順・データ仕様・サンプル・オフラインでのURL生成ツールをまとめています。
 
 内容をURLへ埋め込み、各アプリで開くためのSkill集です。Google Drive上のファイル作成・共有・権限設定は対象外です。
 
 2026-11-11時点のローカル実装を調査し、内容埋め込み共有を持つ全71アプリを収録しています。69アプリはWeb版URLの定義あり、2アプリは配信先の指定が必要です。受信機能が未実装のアプリは末尾にまとめています。開発用サンプル・試作・同一アプリの旧版リポジトリは重複収録していません。
+
+## 作りたいものから探す
+
+- **ガントチャート・工程表：** [iGanttChartの使い方](ganttchart/README.ja.md)、[AI Gantt Chart](ganttchartai/SKILL.md)
+- **マインドマップ・目標：** [BulletsMind](bulletsmind/SKILL.md)、[Mandala Manager](mandalachart/SKILL.md)
+- **フローチャート・図解：** [Simple Flowchart](simpleflowchart/SKILL.md)、[ER図](er/SKILL.md)、[シーケンス図](sequenceflow/SKILL.md)
+- **カード・印刷物：** [名刺](meishi/SKILL.md)、[ショップカード](shopcard/SKILL.md)、[チラシ](leaflet/SKILL.md)
+- **文書・スライド：** [Markdown Editor](markdown/SKILL.md)、[要件定義](requirement/SKILL.md)、[Slides](slide/SKILL.md)
+- **表・予定表：** [スプレッドシート](spreadsheet/SKILL.md)、[シフト表](shift/SKILL.md)、[時間割](timetable/SKILL.md)
+
+[開発者について](https://tanaike.jp/profile?hl=ja) · [アプリ一覧](https://tanaike.jp/?hl=ja)
 
 ## 言語の扱い
 
 各アプリのSkill・仕様書・CLIのヘルプ／エラーは英語を基準にしています。Skillはユーザーが指定した言語で応答・生成し、指定がなければユーザーの言語を使います。日本語の依頼には日本語の内容を生成します。JSONキー・ID・列挙値などの技術的な値は翻訳しません。
 
 `examples/sample.en.*` と `examples/sample.ja.*` に同じ構成の日英サンプルを同梱しています。言語別のSkillを二重にインストールする必要はありません。
+
+## 会話で作りたいものを形にする
+
+最初から仕様を完成させる必要はありません。「来月のWebサイト公開までの工程表を作りたい。足りない情報は質問して」と伝えて始められます。AIの質問に答え、「実装をもっと細かく分けて」「確認の期間を1週間長くして」などと会話で調整し、まとまったらアプリで開けるURLを返してもらいます。
+
+### まずはSkillを追加せずに試す
+
+作りたいものと一緒に、対象アプリの手順URLをプロンプトへ貼り付けます。リンク先のデータ仕様とURL生成ツールも参照するよう伝えてください。iGanttChartの場合は、次のように依頼できます。
+
+> https://github.com/y-tanaike/public_skills/blob/main/ganttchart/SKILL.md の手順と、そこからリンクされているデータ仕様・URL生成ツールを参照してください。来月のWebサイト公開に向けたガントチャートを作りたいです。足りない情報は質問しながら、会話でタスクと日程を整理してください。工程名は日本語にして、まとまったらiGanttChartで開けるURLを返してください。
+
+手順の本文を直接貼り付ける方法もあります。この方法ではSkillのインストールは不要です。他のアプリでは、下の一覧にある対象の `SKILL.md` のURLを使ってください。
+
+URL生成には、手順・参照ファイルの取得と、Pythonなどのコード実行に対応したAI環境を使ってください。URLを参照できない場合は、手順と参照先のファイルを直接渡します。URLを貼ることで閲覧機能や実行機能が追加されるわけではありません。
+
+### 繰り返し使うならSkillを導入する
+
+Skillに対応したAI環境に、対象アプリのディレクトリを `SKILL.md`・`scripts/`・`references/`・`examples/` ごと追加します。導入方法は環境によって異なります。導入して利用可能になった後は、次のように依頼できます。
+
+> ganttchartのSkillを使って、来月のWebサイト公開までの計画を一緒に整理してください。足りない情報は質問して、iGanttChartで開けるURLを返してください。
+
+毎回手順の全文やURLを貼り付ける手間を省き、作りたいものを会話で伝えられます。Skillが自動で選ばれない環境では、使うSkillの名前も明示してください。
 
 ## 使い方
 

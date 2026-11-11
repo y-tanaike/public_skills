@@ -1,16 +1,51 @@
-# Skills for creating app content through URLs
+# AI Skills for app content, Gantt charts, diagrams, and documents
 
 English | [日本語](README.ja.md)
+
+Reusable AI Skills by Yuki Tanaike for creating Gantt charts, mind maps, diagrams, business cards, and other app content. Each Skill bundles instructions, format references, examples, and an offline URL tool.
 
 Create app content with an AI assistant and open it through a URL that embeds the content. Google Drive file creation, sharing, and permissions are outside this collection.
 
 This collection covers all 71 apps with embedded-content sharing found in the local implementations checked on 2026-11-11. Web URLs are configured for 69 apps; two require a verified deployment URL. Apps without a receiving implementation are listed below. Prototypes, development samples, and duplicate older implementations are excluded.
+
+## Find a Skill by what you want to create
+
+- **Gantt charts and project schedules:** [iGanttChart guide](ganttchart/README.md), [AI Gantt Chart](ganttchartai/SKILL.md).
+- **Mind maps and goals:** [BulletsMind](bulletsmind/SKILL.md), [Mandala Manager](mandalachart/SKILL.md).
+- **Flowcharts and diagrams:** [Simple Flowchart](simpleflowchart/SKILL.md), [ER Diagram](er/SKILL.md), [Sequence Diagram](sequenceflow/SKILL.md).
+- **Cards and print layouts:** [Business Card](meishi/SKILL.md), [Shop Card](shopcard/SKILL.md), [Flyer](leaflet/SKILL.md).
+- **Documents and slides:** [Markdown Editor](markdown/SKILL.md), [Requirements](requirement/SKILL.md), [Slides](slide/SKILL.md).
+- **Tables and schedules:** [Spreadsheet](spreadsheet/SKILL.md), [Shift Schedule](shift/SKILL.md), [Timetable](timetable/SKILL.md).
+
+[About the app developer](https://tanaike.jp/profile?hl=en) · [App directory](https://tanaike.jp/?hl=en)
 
 ## Language policy
 
 Each app has one skill. Instructions, format references, and CLI help/errors use English. The assistant responds and generates content in the language explicitly requested by the user, or otherwise in the user's language. English instructions do not require English output.
 
 Every app includes matching English and Japanese samples in `examples/sample.en.*` and `examples/sample.ja.*`. Translate display content, not JSON keys, IDs, enum values, code syntax, or date/number encodings. You do not need separate Japanese and English installations.
+
+## Create through conversation
+
+Start with what you want to make; you do not need a finished specification. For example: “I want a website launch schedule for next month. Ask me about anything missing.” Answer the assistant's questions, then request changes such as “split implementation into smaller tasks” or “allow another week for review.” When the plan is ready, ask for a URL that opens it in the app.
+
+### Try it without installing a Skill
+
+Paste the app's instructions URL into the prompt together with your request. Ask the assistant to follow the linked data reference and URL tool as well. For iGanttChart, use:
+
+> Read https://github.com/y-tanaike/public_skills/blob/main/ganttchart/SKILL.md and follow its linked data reference and URL tool. I want a Gantt chart for launching a website next month. Help me organize tasks and dates through conversation, asking about missing information. Write the task names in English and return a URL I can open in iGanttChart when the plan is ready.
+
+You can paste the instructions themselves instead. No Skill installation is required for this approach. For another app, use its `SKILL.md` link in the catalog below.
+
+Use an AI environment that can retrieve the instructions and reference files and run Python or equivalent code to generate the URL. If it cannot read URLs, provide the instructions and referenced files directly. Pasting a URL does not add browsing or code-execution capabilities to an assistant.
+
+### Install the Skill for repeat use
+
+Add the entire app directory to an AI environment that supports Skills, keeping `SKILL.md`, `scripts/`, `references/`, and `examples/` together. Installation depends on the environment. Once installed and available, you can ask:
+
+> Use the ganttchart Skill to help me plan a website launch next month. Ask about anything missing and return a URL I can open in iGanttChart.
+
+You do not need to paste the full instructions or URL each time. Keep describing and refining what you want through conversation. If your environment does not select the Skill automatically, name it explicitly.
 
 ## Usage
 
